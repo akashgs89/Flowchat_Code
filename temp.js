@@ -27,8 +27,3 @@
 //  console.log(Math.max(1,2,4,2,4,5,5,6,6,7));
 let a;
 console.log(a);
-
-
-
-
-
