@@ -5,14 +5,16 @@ const input = require("readline-sync");
 // let N = Number(input.question("Enter the Number:- "));
 // let name = String(input.question("Enter the name:- "));
 
-// for(let i=1; i<=N; i++){
-//     console.log(name);
+// for (let i = 1; i <= N; i++) {
+//   console.log(name);
 // }
 
-// i=1;
-// while(i<=N){
-//     console.log(name);
-//     i++
+// -------------------Using While Loop--------------------------
+
+// i = 1;
+// while (i <= N) {
+//   console.log(name);
+//   i++;
 // }
 
 // Question No:-02  Imagine you're on a fun journey of exploring numbers! You're interested in
@@ -24,9 +26,9 @@ const input = require("readline-sync");
 
 // let N = Number(input.question("Enter the number :- "));
 
-// for(let i=1; i<N; i++){
-//     if(i%2==0)
-//         console.log(i);
+// for (let i = 1; i < N; i++) {
+//   if (i % 2 == 0)
+//     console.log(i);
 // }
 
 // Question no:-03  Imagine you're on an adventurous quest to unravel the mysteries of numbers! Today,
@@ -38,15 +40,14 @@ const input = require("readline-sync");
 
 // let N = Number(input.question("Enter the number:- "));
 
-// let sum=0;
-
-// for(let i=1; i<N; i++){
-//     if(i%2!=0){
-//         sum=sum+i
-//         console.log(i);
-//     }
+// let sum = 0;
+// for (let i = 1; i < N; i++) {
+//   if (i % 2 != 0) {
+//     sum = sum + i;
+//     console.log(i);
+//   }
 // }
-//         console.log("sum of odd:-", sum);
+// console.log("sum of odd:-", sum);
 
 // Question No:-04 Write a program to take two integers M, and N and print the sum of numbers in the range M to N.
 
@@ -55,19 +56,18 @@ const input = require("readline-sync");
 
 // let sum = 0;
 
-// for(; M<=N; M++){
-//     sum=sum+M
+// for (; M <= N; M++) {
+//   sum = sum + M;
 // }
 // console.log(sum);
 
-// -----------------------------  ---------------------------------
+// ----------------------------- Using While Loop ---------------------------------
 
-// let sum=0;
-// while(M<=N){
-//     sum=sum+M
-//     M++
-//     console.log(sum);
-
+// let sum = 0;
+// while (M <= N) {
+//   sum = sum + M;
+//   M++;
+//   console.log(sum);
 // }
 // console.log("print sum of number =", sum);
 
@@ -76,11 +76,9 @@ const input = require("readline-sync");
 // let N = Number(input.question("Enter nummber :- "));
 
 // let sum = 0;
-
-// for(i=1; i<=N; i++){
-//     sum+=1/i
-//     console.log(1/i);
-
+// for (i = 1; i <= N; i++) {
+//   sum += 1 / i;
+//   console.log(1 / i);
 // }
 // console.log("print sum :", sum);
 
@@ -91,12 +89,11 @@ const input = require("readline-sync");
 // let sum = 0;
 // let A = 0;
 
-// while(N>0){
-//     A = N%10
-//     sum = sum+A
-//     N = Math.floor(N/10)
-//     console.log(sum);
-
+// while (N > 0) {
+//   A = N % 10;
+//   sum = sum + A;
+//   N = Math.floor(N / 10);
+//   console.log(sum);
 // }
 // console.log("print sum :", sum);
 
@@ -104,36 +101,33 @@ const input = require("readline-sync");
 
 // let N = Number(input.question("Enter the number :- "));
 
-// for(i=1; N!=0; i++){
-//     N = Math.floor(N/10)
-//     console.log(i);
-
+// for (i = 1; N != 0; i++) {
+//   N = Math.floor(N / 10);
+//   console.log(i);
 // }
 
 // Question no:-08 Write a program that takes a number from the user and prints the number that is formed by reversing the digits of the number.
 
 // let N = Number(input.question("Enter the number :- "));
 
-// let d=0;
-// let rev=0;
-
-// while(N!=0){
-//     d = N%10
-//     rev = rev*10+d
-//     N = Math.floor(N/10)
-//     console.log(d);
-
+// let d = 0;
+// let rev = 0;
+// while (N != 0) {
+//   d = N % 10;
+//   rev = rev * 10 + d;
+//   N = Math.floor(N / 10);
+//   console.log(d);
 // }
 // console.log("reverse Number :", rev);
 
-// Question no:- 09 Factors question
+// Question no:- 09        Factors question
 
 // let N = Number(input.question("Enter the number :- "));
 
-// for(i=1; i<=N; i++){
-//     if(m= N%i==0){
-//         console.log(i);
-//     }
+// for (i = 1; i <= N; i++) {
+//   if ((m = N % i == 0)) {
+//     console.log(i);
+//   }
 // }
 
 // Question no:-10   (Factorial question)
@@ -141,70 +135,62 @@ const input = require("readline-sync");
 // let N = Number(input.question("Enter the number :- "));
 
 // let f = 1;
-
-// for(i=1; i<=N; i++){
-//     f=f*i
-//     console.log(f);
-
+// for (i = 1; i <= N; i++) {
+//   f = f * i;
+//   console.log(f);
 // }
 // console.log("factorial no : ", f);
 
 // Question no:-11  Write a program to check if a number is a special type of number called
-//a 'prime number'. A prime number is a number that is only divisible by 1 and itself, and it doesn't
+// a 'prime number'. A prime number is a number that is only divisible by 1 and itself, and it doesn't
 //have any other factors.
 
 // let n = Number(input.question("Enter the number :- "));
 
 // let count = 0;
-
-// for(i=1; i<=n; i++){
-//     if(n%i==0){
-//         count++
-//     }
+// for (i = 1; i <= n; i++) {
+//   if (n % i == 0) {
+//     count++;
+//   }
 // }
-// if(count==2){
-//     console.log("Yes");
-// }
-// else{
-//     console.log("No");
+// if (count == 2) {
+//   console.log("Yes");
+// } else {
+//   console.log("No");
 // }
 
 // Question no:-12  Write a program to take a number from the user and then determine if that number is a special type of number called a 'perfect number'.
 
 // let N = Number(input.question("Enter the Number:- "));
-// let k=N
+// let k = N;
 // let sum = 0;
 
-// for(let i=1; N>i; i++){
-//   if(N%i==0){
-//     sum=sum+i
+// for (let i = 1; N > i; i++) {
+//   if (N % i == 0) {
+//     sum = sum + i;
 //   }
 // }
-// if(k==sum){
+// if (k == sum) {
 //   console.log("it is perfect number");
-
-// }
-// else{
+// } else {
 //   console.log("it is not perfect number");
-
 // }
 
 // Question no:-13  Fibonacci series
 
-// let a=0;
-// let b=1;
-// let n=10
-// let c=0;
+// let a = 0;
+// let b = 1;
+// let n = 10;
+// let c = 0;
 
 // console.log(a);
 // console.log(b);
 
-// for(let i=0; i<=n; i++){
-//      c=a+b;
-//      console.log(c);
-//      a=b;
-//      b=c;
-
+// for (let i = 0; i <= n; i++) {
+//   c = a + b;
+//   console.log(c);
+//   a = b;
+//   b = c;
 // }
 
 //   Question no:-14   Armstrong Number
@@ -228,8 +214,4 @@ const input = require("readline-sync");
 //   console.log("Not Armstrong Number");
 // }
 
-
-
 // Questin no:-15  Palindrome Number
-
-
