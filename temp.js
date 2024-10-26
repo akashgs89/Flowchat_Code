@@ -25,5 +25,20 @@
 // console.log(Math.round(4.6));
 // console.log(Math.min(11,22,43,546,2, 9,23,55,56));
 //  console.log(Math.max(1,2,4,2,4,5,5,6,6,7));
-let a;
-console.log(a);
+// let a;
+// console.log(a);
+
+
+// console.log((1 + 2 )+ "2");
+// console.log((1 + 2)+ "5");
+// console.log("5" + 1 + 2);
+// console.log("5" + (1 + 2));
+// console.log(true+);
+// console.log(1==1);
+console.log("2" >1 );
+
+
+
+
+
+

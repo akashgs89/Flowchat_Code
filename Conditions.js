@@ -471,6 +471,8 @@ else{
 // Question no:- 26 Validate a given year.
 //     (Hints. The year in the date must be greater than zero, the months must lie between 1
 //     and 12, and the days must lie between 1 and 31, depending on the month numbers.)
+//    Dependind on the leap year
+
 
 // let year = Number(input.question("Enter the year:- "));
 // let Month = Number(input.question("Enter the Month:- "));
