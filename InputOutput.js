@@ -1,4 +1,4 @@
-// const input = require("readline-sync");
+const input = require("readline-sync");
 
 //Question No-1 Write a program to take three variables to store your birth date, birth month, and birth year, respectively, and then print them one by one in a specified order.
 
@@ -36,7 +36,15 @@ console.log(year);*/
 
 
 
-
+let num = Number(input.question("Enter the first number :-"));
+if(num%10==0){
+    console.log("good");
+    
+    
+}
+else{
+    console.log("bad");
+}
 
 
 

@@ -323,15 +323,18 @@ const input =require("readline-sync")
 
 // Question No;- 30 Write a program to calculate the total marks obtained by a student in examination. (Subjects : - Hindi, Maths, English, Science, Computer)
 // (Input marks of all 5 subjects from the user)
-// let subjectHindi = Number(input.question("Enter the Subject mark :- "));
-// let subjectMath = Number(input.question("Enter the Math Mark :- "));
-// let subjectEnglish = Number(input.question("Enter the ENglish Mark :- "));
-// let subjectScience = Number(input.question("Enter the Science Mark :- "));
-// let subjectComputer = Number(input.question("Enter the Computer Mark :- "));
+let subjectHindi = Number(input.question("Enter the Subject mark :- "));
+let subjectMath = Number(input.question("Enter the Math Mark :- "));
+let subjectEnglish = Number(input.question("Enter the ENglish Mark :- "));
+let subjectScience = Number(input.question("Enter the Science Mark :- "));
+let subjectComputer = Number(input.question("Enter the Computer Mark :- "));
 
-// let totalMark = 0;
-// totalMark = subjectHindi + subjectMath + subjectEnglish + subjectScience + subjectComputer;
-// console.log(`Total Marks obtained by Student In Examination : ${totalMark}`);
+let totalMark = 0;
+
+console.log("Hello world");
+
+totalMark = subjectHindi + subjectMath + subjectEnglish + subjectScience + subjectComputer;
+console.log(`Total Marks obtained by Student In Examination : ${totalMark}`);
 
 
 
