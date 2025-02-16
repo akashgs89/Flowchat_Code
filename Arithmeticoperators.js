@@ -331,8 +331,6 @@ let subjectComputer = Number(input.question("Enter the Computer Mark :- "));
 
 let totalMark = 0;
 
-console.log("Hello world");
-
 totalMark = subjectHindi + subjectMath + subjectEnglish + subjectScience + subjectComputer;
 console.log(`Total Marks obtained by Student In Examination : ${totalMark}`);
 
